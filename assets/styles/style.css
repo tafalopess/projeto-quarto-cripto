@@ -63,7 +63,7 @@ main {
 }
 
 .banner {
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .banner-content {
@@ -89,11 +89,13 @@ main {
     font-weight: bold;
     text-transform: uppercase;
     line-height: 3rem;
+    text-align: center;
 }
 
 .banner-text {
     font-size: 1.5rem;
     line-height: 2rem;
+    text-align: center;
 }
 
 .yellow-text {
@@ -147,7 +149,7 @@ main {
 
 /* *** Transition *** */
 .transition-container {
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .transition-course {
@@ -182,7 +184,7 @@ main {
 
 /* *** Course Large *** */
 .container-large {
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .course-large-item {
@@ -250,7 +252,7 @@ main {
 /* *** Course Small *** */
 .course-slider-2{
     display: none;
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .course-small-item {
@@ -308,7 +310,7 @@ main {
 
 /* *** CTA *** */
 .cta-course-container {
-    margin: 10% 0;
+    margin: 5% 0;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -350,9 +352,13 @@ main {
     border-top: 1px solid var(--third-color);
 }
 
+.ebook-word {
+    margin-top: 1.5rem;
+}
+
 /* *** E-Books *** */
 .ebooks-container {
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .ebooks-content {
@@ -445,7 +451,7 @@ main {
 
 /* *** About *** */
 .about-container {
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .about-title {
@@ -513,7 +519,7 @@ main {
 
 /* *** FAQ *** */
 .faq-container {
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .faq-title {
@@ -543,7 +549,7 @@ details p {
 
 /* *** Warning *** */
 .warning {
-    margin: 10% 0;
+    margin: 5% 0;
     background: rgba(57, 62, 70, 0.3);
     padding: 1.5rem;
     border: 3px solid var(--third-color);
@@ -650,6 +656,7 @@ footer {
     .banner-content {
         flex-direction: column;
         height: auto;
+        margin-bottom: 3rem;
     }
 
     .banner-title, .transition-title, .cta-title, .description-title, .about-title, .description-title, .faq-title {
@@ -679,6 +686,10 @@ footer {
     .cta-item {
         font-size: 1rem;
         line-height: 1.5rem;
+    }
+
+    .ebook-word {
+        margin-top: 0;
     }
 
     .faq-content {
@@ -717,7 +728,11 @@ footer {
         font-size: 1.25rem;
         line-height: 1.75rem;
     }
-     
+    
+    .course-small-item {
+        height: 630px;
+    }
+
     .course-small-button {
         font-size: 1rem;
         line-height: 1.5rem;
@@ -755,7 +770,7 @@ footer {
     }
 
     .course-small-item {
-        height: 750px;
+        height: 630px;
     }
 
     .course-small-title {
