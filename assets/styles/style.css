@@ -915,9 +915,10 @@ footer {
 @media screen and (max-width: 500px) {
 
     .popup-container {
-        top: 60%;
+        top: 30%;
         flex-direction: column;
         padding: .5rem;
+        transform: translateX(-50%) translateY(-50%);
     }
 
     .popup-image {
