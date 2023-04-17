@@ -63,6 +63,7 @@ body {
     display: none;
     align-items: center;
     max-width: 100vw;
+    max-height: 100vh;
     background: var(--first-color);
     color: var(--fourth-color);
     padding: 2rem 0 2rem 2rem;
