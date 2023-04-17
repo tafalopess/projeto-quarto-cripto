@@ -913,6 +913,10 @@ footer {
 
 @media screen and (max-width: 500px) {
 
+    .popup-container {
+        top: 55%;
+    }
+
     .popup-image {
         width: 250px;
         height: 250px;
